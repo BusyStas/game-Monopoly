@@ -1,0 +1,17 @@
+This file is the set of my instruction for AI copilot, so you should NEVER chane it directly.
+
+General Overview:
+    - I am building a monopoly game as a desktop app in Go language. 
+    - The clients will see each other in the local network and exchange by TCP or UDP. 
+    - The theme is a classic industrial/economical Tycoon, but each of my family members should find the flavor they like, i.e. some items should be related to Pokemon (i.e. store/concert/park/etc.), some items should be related to Jewerly (store/manufacture/show), some items relate to Gems (faceting, polishing, certification), some items relate to Police.
+
+General Approach:
+    - Ideally it should be a single executable, so there is no need to install packages or dependencies
+    - It should have a beautiful visual appearance, normal 2D
+
+
+Main Screen:
+    - Top area is a narrow line with the main user stats and status
+    - The main board - may be scrollable if board is too big, can be zoomed in/out
+    - Left pane - see other users and public information about them, leaderboard, etc.
+
