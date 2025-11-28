@@ -1,0 +1,34 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>game-Monopoly — Prototype</title>
+    <link rel="stylesheet" href="/static/style.css">
+  </head>
+  <body>
+    <div id="app">
+      <header>
+        <h1>game-Monopoly (Prototype)</h1>
+      </header>
+      <main>
+        <section id="board">
+          <div class="board-placeholder">Game board (2D) — prototype</div>
+        </section>
+        <aside id="sidebar">
+          <h3>Peers</h3>
+          <ul id="peers"></ul>
+
+          <h3>Messages</h3>
+          <div id="log"></div>
+
+          <div class="controls">
+            <input id="message" placeholder="Type a message" />
+            <button id="send">Send</button>
+          </div>
+        </aside>
+      </main>
+    </div>
+    <script src="/static/app.js" type="module"></script>
+  </body>
+</html>
