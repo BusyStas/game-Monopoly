@@ -8,7 +8,7 @@ General Overview:
 General Approach:
     - Ideally it should be a single executable, so there is no need to install packages or dependencies
     - It should have a beautiful visual appearance, normal 2D
-
+    - All tests should be in a single file or in the folder /tests
 
 Main Screen:
     - Top area is a narrow line with the main user stats and status
